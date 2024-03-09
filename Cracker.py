@@ -5,7 +5,7 @@ def sha256_hash(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
 def brute_force_attack(target_hash):
-    characters = [chr(i) for i in range(32, 127)]  # ASCII'deki yazdırılabilir karakterler aralığı
+    characters = [chr(i) for i in range(32, 127)] 
     word_length = 1
     start_time = time.time()
     
