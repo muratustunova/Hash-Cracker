@@ -1,4 +1,4 @@
-Important Notes
+# Notes
 
 This code snippet developed in Python will crack the hash data 100%, but I don't know if your life is long enough. :D 
 I did a little experiment. If you give the hash value of the word "can", it takes 76 seconds to find the word.
